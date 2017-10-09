@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\MoveTrigger.cs" />
      <Compile Include="Assets\Scripts\Bird.cs" />
      <Compile Include="Assets\Scripts\Pipe.cs" />
  <Reference Include="UnityEngine.UI">
