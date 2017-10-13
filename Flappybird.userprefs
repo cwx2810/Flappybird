@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PipeDie.cs">
     <Files>
-      <File FileName="Assets\Scripts\Pipe.cs" Line="19" Column="34" />
-      <File FileName="Assets\Scripts\Bird.cs" Line="1" Column="1" />
-      <File FileName="Assets\FollowBird.cs" Line="18" Column="27" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="8" Column="16" />
+      <File FileName="Assets\Scripts\Pipe.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bird.cs" Line="44" Column="47" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="28" Column="37" />
+      <File FileName="Assets\PipeDie.cs" Line="9" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

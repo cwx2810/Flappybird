@@ -46,8 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FollowBird.cs" />
+     <Compile Include="Assets\PipeDie.cs" />
      <Compile Include="Assets\Scripts\Bird.cs" />
+     <Compile Include="Assets\Scripts\FollowBird.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MoveTrigger.cs" />
      <Compile Include="Assets\Scripts\Pipe.cs" />
