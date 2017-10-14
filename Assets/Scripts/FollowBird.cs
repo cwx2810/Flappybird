@@ -16,6 +16,13 @@ public class FollowBird : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector3 birdPos = birdTransform.position;
-		this.transform.position = new Vector3 (birdPos.x+1.23f, birdPos.y-2, birdPos.z-23.04f);
+		float y = birdPos.y - 2;
+		if (y > 2.5f) {
+			y = 2.5f;
+		}
+		if (y < -2.5f) {
+			y = -2.5f;
+		}
+		this.transform.position = new Vector3 (birdPos.x+1.23f, y, birdPos.z-23.04f);
 	}
 }
