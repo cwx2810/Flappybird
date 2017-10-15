@@ -7,6 +7,8 @@ public class PipeDie : MonoBehaviour {
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Player") {
 			GameManager._instance.GameState = GameManager.GAMESTATE_END;
+			//print (GameManager._instance.GameState);
+			ButtonControl._instance.gameObject.SetActive (true);
 		}
 	}
 }
